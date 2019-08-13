@@ -1,6 +1,7 @@
 function duplicateCount(text) {
   const splitText = text.split('');
-  return splitText;
+  const duplicateCount = splitText.filter((word, index) => splitText.indexOf(word) !== index);
+  return duplicateCount.length;
 }
 
 module.exports = duplicateCount;
