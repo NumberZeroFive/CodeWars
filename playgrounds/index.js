@@ -2,10 +2,12 @@ const squareDigits = require('./squareDigits');
 const populationGrowthUp = require('./populationGrowthUp');
 const order = require('./order');
 const duplicateCount = require('./duplicateCount');
+const highAndLow = require('./highAndLow');
 
 module.exports = {
   squareDigits,
   populationGrowthUp,
   order,
-  duplicateCount
+  duplicateCount,
+  highAndLow
 };
