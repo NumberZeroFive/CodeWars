@@ -1,3 +1,4 @@
-const { duplicateCount } = require('./playgrounds/index');
+const { alphabetPosition } = require('./playgrounds/index');
 
-console.log(duplicateCount('aabbcd'));
+// console.log(alphabetPosition('abcdefghijklmnplqrstuvwxyz'));
+console.log(alphabetPosition("The sunset sets at twelve o' clock."));

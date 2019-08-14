@@ -1,4 +1,4 @@
-const testOrder = require('./order');
+const testOrder = require('../order');
 
 describe('test order', () => {
   test('should return sorted order', () => {
